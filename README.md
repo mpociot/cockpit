@@ -12,6 +12,8 @@
 
 Easy to use widgets with custom metrics, filters and drag and drop support.
 
+**Note:** Documentation is still in progress.
+
 ## Contents
 
 - [Installation](#installation)
