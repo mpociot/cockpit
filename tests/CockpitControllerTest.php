@@ -283,7 +283,6 @@ class CockpitTest extends Orchestra\Testbench\TestCase
         $this->post("/cockpit/api/savePosition", [
             "grid" => json_encode( $gridData )
         ] );
-        $this->seeJson();
         $this->seeStatusCode(200);
 
         $this->seeInDatabase( "widgets" , [
